@@ -1,4 +1,4 @@
 # tailieubkhn.github.io
 
-redirects https://tailieubkhn.github.io/ to https://www.tailieubkhn.com/
+redirects https://piandhust.github.io/tailieubkhn/ to https://www.tailieubkhn.com/
 
