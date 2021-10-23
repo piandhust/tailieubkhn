@@ -1,4 +1,4 @@
-Access [https://www.tailieubkhn.com/p/convert.html](https://tailieu-bkhn.blogspot.com/p/convert.html), and enter domain you want convert from website tailieubkhn to github pages:
+Access [https://piandhust.github.io/tailieubkhn/convert](https://piandhust.github.io/tailieubkhn/convert), and enter domain you want convert from website tailieubkhn to github pages:
 
 ![](https://i.pinimg.com/originals/4a/20/73/4a207323bd4d731a60c5f8c2b8f64fdb.jpg)
 
