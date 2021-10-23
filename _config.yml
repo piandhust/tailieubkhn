@@ -1,4 +1,2 @@
 theme: jekyll-theme-cayman
-permalink: /404.html
-from: tailieubkhn # name of repo
-to: https://tailieubkhn.com
+permalink: /all.html
