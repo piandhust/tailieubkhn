@@ -47,7 +47,12 @@
           if(url == ""){
               alert("Bạn cần nhập vào URL !");
           } else {
-              url = url.replace("{{ site.url }}/{{ site.baseurl }}", "{{ site.targeturl }}");
+              if(!{{ site.targeturl }}.includes("www")){
+                  url = url.replace("{{ site.targeturl }}", "{{ site.url }}/{{ site.baseurl }}");
+              } else {
+                  url = url.replace("www.{{ site.targeturl }}", "{{ site.url }}/{{ site.baseurl }}");
+              }
+              
               document.getElementById("output_text").value = url;
           }
       }
