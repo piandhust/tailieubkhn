@@ -47,7 +47,7 @@
           if(url == ""){
               alert("Bạn cần nhập vào URL !");
           } else {
-              url = url.replace("{{ site.targeturl }}", "{{ site.url }}/{{ site.baseurl }}");
+              url = url.replace("{{ site.url }}/{{ site.baseurl }}", "{{ site.targeturl }}");
               document.getElementById("output_text").value = url;
           }
       }
