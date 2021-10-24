@@ -47,8 +47,7 @@
           if(url == ""){
               alert("Bạn cần nhập vào URL !");
           } else {
-              var url = url.replace("www.tailieubkhn.com", "piandhust.github.io/tailieubkhn");
-              // alert(url);
+              url = url.replace("{{ site.targeturl }}", "{{ site.url }}/{{ site.baseurl }}");
               document.getElementById("output_text").value = url;
           }
       }
