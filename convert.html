@@ -8,7 +8,7 @@ layout: convert
       if(url == ""){
           alert("Bạn cần nhập vào URL !");
       } else {
-          if(!{{ site.targeturl }}.includes("www")){
+          if(!url.includes("www")){
               url = url.replace("{{ site.targeturl }}", "{{ site.url }}/{{ site.baseurl }}");
           } else {
               url = url.replace("www.{{ site.targeturl }}", "{{ site.url }}/{{ site.baseurl }}");
