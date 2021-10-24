@@ -26,3 +26,5 @@ With:
 - `url` is url of your github page website, if your username is trannguyenhan, this is trannguyenhan.github.io
 - `targeturl` is url of target website you want convert domain from github page to it
 - `baseurl` is name of this repo
+
+Note: because domain `/convert` has been taken to make a website to convert, so your domain will ignore `/convert`.
