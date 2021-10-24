@@ -4,7 +4,7 @@ layout: default
 <!--header-->
 <header class="main-header clearfix" role="header">
 <div class="logo">
-<a href="https://www.{{ site.targeturl }}"><em>{{ site.targeturl }}</em></a>
+<a href="https://{{ site.targeturl }}"><em>{{ site.targeturl }}</em></a>
 </div>
 </header>
 
@@ -16,17 +16,17 @@ layout: default
 
 <div class="video-overlay header-text">
   <div class="caption">
-      <h6>Chuyển hướng tên miền từ {{ site.baseurl }} tới</h6>
+      <h6>Chuyển hướng tên miền từ {{ site.url }} tới</h6>
       <h2><em>{{ site.targeturl }}</h2>
       <div class="main-button">
-	  <div class="scroll-to-section"><a href="https://www.{{ site.targeturl }}" id="conti">Tiếp tục</a></div>
+	  <div class="scroll-to-section"><a href="https://{{ site.targeturl }}" id="conti">Tiếp tục</a></div>
       </div>
   </div>
 </div>
 </section>
 <script>
 	var url = document.URL;
-	var url = url.replace("piandhust.github.io/tailieubkhn", "www.tailieubkhn.com");
+	var url = url.replace("{{ site.url }}/{{ site.baseurl }}", "{{ site.targeturl }}");
 
 	document.getElementById("conti").href = url;
 </script>
