@@ -37,31 +37,6 @@
       }
       label:after { content: ": " }
     </style>
-    <script>
-      function convert () {
-          var url = document.getElementById("input_text");
-          url = url.value;
-          if(url == ""){
-              alert("Bạn cần nhập vào URL !");
-          } else {
-              if(!{{ site.targeturl }}.includes("www")){
-                  url = url.replace("{{ site.targeturl }}", "{{ site.url }}/{{ site.baseurl }}");
-              } else {
-                  url = url.replace("www.{{ site.targeturl }}", "{{ site.url }}/{{ site.baseurl }}");
-              }
-              
-              document.getElementById("output_text").value = url;
-          }
-      }
-  
-      function copyURL() {
-        var copyText = document.getElementById("output_text");
-        copyText.select();
-        copyText.setSelectionRange(0, 99999)
-        document.execCommand("copy");
-        alert("Copied the text: " + copyText.value);
-      }
-    </script>
 </head>
 <body>
   {{ content }}
