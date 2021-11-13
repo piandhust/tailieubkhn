@@ -1,14 +1,12 @@
 ## What is this project?
-If you want have a domain [https://www.tailieubkhn.com/2021/10/website-hoc-machine.html](https://www.tailieubkhn.com/2021/10/website-hoc-machine.html), so you want share it to facebook or twitter, that you want avoid facebook or twitter block your domain, this is solution you need.
+If you have a domain [https://www.tailieubkhn.com/2021/10/website-hoc-machine.html](https://www.tailieubkhn.com/2021/10/website-hoc-machine.html), so you want share it to facebook or twitter, that you want avoid facebook or twitter block your domain, this is solution you need.
 
 This project help convert your domain to github domain, Because it is the domain of github, it has a certain reputation
 
 ## Demo: 
-[https://piandhust.github.io/tailieubkhn/convert](https://piandhust.github.io/tailieubkhn/convert), and enter domain you want convert from website tailieubkhn to github pages:
+[https://piandhust.github.io/tailieubkhn/convert](https://piandhust.github.io/tailieubkhn/convert), and paste domain you want convert from website tailieubkhn to github pages, domain [https://www.tailieubkhn.com/123](https://www.tailieubkhn.com/2021/10/website-hoc-machine.html) will convert to [https://piandhust.github.io/tailieubkhn/123](https://piandhust.github.io/tailieubkhn/2021/10/website-hoc-machine.html):
 
 ![](https://i.pinimg.com/originals/6e/51/5c/6e515c089c22da1aa5a9582b940a5ab7.jpg)
-
-Domain [https://www.tailieubkhn.com/2021/10/website-hoc-machine.html](https://www.tailieubkhn.com/2021/10/website-hoc-machine.html) will convert to [https://piandhust.github.io/tailieubkhn/2021/10/website-hoc-machine.html](https://piandhust.github.io/tailieubkhn/2021/10/website-hoc-machine.html).
 
 When you access to link github page you will see a page, click to button _Continue_ website will redirect to [https://www.tailieubkhn.com/](https://www.tailieubkhn.com/): 
 
