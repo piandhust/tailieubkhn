@@ -1,4 +1,4 @@
-## What is this project?
+## What is this project? ![](https://img.shields.io/badge/license-MIT-green)
 
 If you have a domain [https://www.tailieubkhn.com/2021/10/website-hoc-machine.html](https://www.tailieubkhn.com/2021/10/website-hoc-machine.html), so you want share it to facebook or twitter, that you want avoid facebook or twitter block your domain, this is solution you need. This project help convert your domain to github domain, Because it is the domain of github, it has a certain reputation
 
