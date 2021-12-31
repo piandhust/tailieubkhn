@@ -18,7 +18,7 @@ If you have a domain [https://www.tailieubkhn.com/2021/10/website-hoc-machine.ht
 ## Configuration
 
 Edit file `_config.yml`: 
-```
+```yml
 permalink: /404.html
 url: "piandhust.github.io"
 targeturl: "tailieubkhn.com"
